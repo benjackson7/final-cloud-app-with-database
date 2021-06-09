@@ -32,7 +32,7 @@ class Learner(models.Model):
     STUDENT = 'student'
     DEVELOPER = 'developer'
     DATA_SCIENTIST = 'data_scientist'
-    DATABASE_ADMIN = 'dba'
+    DATABASE_ADMIN = 'dba' 
     OCCUPATION_CHOICES = [
         (STUDENT, 'Student'),
         (DEVELOPER, 'Developer'),
